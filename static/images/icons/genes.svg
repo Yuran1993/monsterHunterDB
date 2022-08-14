@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.449" height="70.449" viewBox="0 0 70.449 70.449">
+  <defs>
+    <filter id="Polygon_2" x="0" y="0" width="70.449" height="70.449" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_2)">
+    <g id="Polygon_2-2" data-name="Polygon 2" transform="matrix(0.92, -0.39, 0.39, 0.92, 9, 22.63)" fill="none">
+      <path d="M28.284,0,40,11.716V28.284L28.284,40H11.716L0,28.284V11.716L11.716,0Z" stroke="none"/>
+      <path d="M 14.20100975036621 6 L 6 14.20100212097168 L 6 25.79897689819336 L 14.20102310180664 34 L 25.79899024963379 34 L 34 25.79899787902832 L 34 14.20102310180664 L 25.79897689819336 6 L 14.20100975036621 6 M 11.71573257446289 0 L 28.28426742553711 0 L 40 11.71573257446289 L 40 28.28427886962891 L 28.28426742553711 40 L 11.71573257446289 40 L 0 28.28426742553711 L 0 11.71572303771973 L 11.71573257446289 0 Z" stroke="none" fill="#698599"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monster List</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/splide.min.css" />
+    <link rel="stylesheet" href="../css/monster-page.css" />
+  </head>
+
+  <body>
+    <aside>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="/monster-list"
+              ><img src="../images/icons/monster.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/icons/genes.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/icons/teams.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/icons/eggs.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <div class="container monsterPage hide">
+        <header class="">
+          <div class="container header_inner">
+            <div class="buttonWrapper">
+              <div class="buttonWrapper_inner">
+                <a class="prevBtn button" title="Back" href="/monster-list">
+                  <span>Back</span>
+                </a>
+              </div>
+  
+              <div class="buttonWrapper_inner">
+                <button title="Favorite">
+                  <img class="blue-star" src="../images/icons/star.svg" alt="" />
+                  <img class="white-star" src="../images/icons/star-white.svg" alt="" />
+                </button>
+                <button title="Add to party">
+                  <img src="../images/icons/plus.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="main_inner splide" data-splide='{"noDrag": "span"}'>
+          <div class="splide__track">
+            <ul class="splide__list">
+              <!-- <%for (let i=0; i < monsters.length; i++) {%>
+              <li
+                class="monsterWrapper splide__slide"
+                data-splide-hash="<%=monsters[i].number%>"
+              >
+                <div
+                  class="placeholder-monster monsterWrapper_inner <%=monsters[i].basic.attackElement%>"
+                  id="N<%=monsters[i].number%>"
+                ></div>
+              </li>
+              <%}%> -->
+            </ul>
+          </div>
+        </div>
+
+        
+      </div>
+    </main>
+  </body>
+
+  <script>
+    window.redirectTo = "<%=monsterID%>";
+  </script>
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-url-hash@0.2.3/dist/js/splide-extension-url-hash.min.js"></script>
+  <script src="../js/generate-monster-page.js"></script>
+  <script src="../js/monster-page.js"></script>
+</html>

@@ -1,0 +1,2956 @@
+[{
+  "number": 1,
+  "name": "Aptonoth",
+  "basic": {
+    "genus": "Herbivore",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Plant Search"],
+    "hatchable": true,
+    "kinship": "Slip n’ SlamChaaarge…is what you wanted to do, but a pesky banana peel slipped you up and turned your attack into a clumsy body slam! Deals damage to one enemy and knocks down both the target and the Monstie that used it."
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape; Pona Grasslands"],
+    "retreat": ["Use a paintball and defeat it in the next 3 turns to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 2,
+  "name": "Larinoth",
+  "basic": {
+    "genus": "Herbivore",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Water",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape; Pona Grasslands"],
+    "retreat": false
+  },
+  "attackPattrn": false
+}, {
+  "number": 3,
+  "name": "Kelbi",
+  "basic": {
+    "genus": "Herbivore",
+    "rarity": 1,
+    "attackType": "Attack",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": false,
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": false
+  },
+  "attackPattrn": false
+}, {
+  "number": 4,
+  "name": "Velociprey",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 1,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 5,
+  "name": "Velocidrome",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "VelocirushJump high into the air and come down upon the enemy with a vicious attack!Unleash kick after kick with those powerful legs!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": ["Hit it with a Paintball and defeat it within 3 rounds to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 6,
+  "name": "Kulu-Ya-Ku",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Nest Search"],
+    "hatchable": true,
+    "kinship": "EggsplosionHere, take this egg! Just leave this to me, Navirou! Whoa-whoa-whoa, it’s gonna eggsplode! Quick, pass it to the enemy-it’s their problem now! Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": ["Use a blunt-type weapon to break its rock to boost its retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Holding a Rock", "Power"]
+  ]
+}, {
+  "number": 7,
+  "name": "Bnahabra (Blue)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape; Go right around the hill"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 8,
+  "name": "Konchu (Yellow)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape; On the beach under a rock overpass."],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 9,
+  "name": "Yian Kut-Ku",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Monster Search", "Rock Breaker"],
+    "hatchable": true,
+    "kinship": "Fireball ExpulsionChaaarge- Oh, it’s a Konchu!Aaah, that’s one yuuumy Konchu…Wait, don’t think I’ve forgotten about you!Have a smattering of fire with this Konchu shell!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": ["Use a pierce-type weapon to break the head to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 10,
+  "name": "Bullfango",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 11,
+  "name": "Bulldrome",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 2,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Dash"],
+    "hatchable": true,
+    "kinship": "Wild RideChaaarge! Rush headlong into the enemy with devastating speed! Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": ["Hit it with a Paintball and defeat it within 3 rounds to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 12,
+  "name": "Pukei-Pukei",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Roar"],
+    "hatchable": true,
+    "kinship": "Venom SurpriseIf you shoot a load of poison into the air, it’ll form a sinister rain cloud that pours down on the enemy. Don’t forget your umbrella, OK?Deals damage to all enemies and inflicts poison."
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": ["Break the tail with a slash-type weapon to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Crunch Time", "Power"]
+  ]
+}, {
+  "number": 13,
+  "name": "Apceros",
+  "basic": {
+    "genus": "Herbivore",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Plant Search"],
+    "hatchable": true,
+    "kinship": "Dynamic SpinYour Monstie’s carapace becomes a weapon, spinning straight toward your opponent!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands; Across the bridge from the Catavan"],
+    "retreat": ["Hit it with a Paintball and defeat it within 3 rounds to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 14,
+  "name": "Slagtoth (Green)",
+  "basic": {
+    "genus": "Herbivore",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands; Southwest from the Catavan Stand, near the Larinoth", "Alcala; Wendwood; East from the Catavan Stand", "Alcala; Sailor’s Beach; West from the Catavan Stand"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 15,
+  "name": "Gargwa",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 1,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands; Turn around and go straight after fast travel"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 16,
+  "name": "Jaggi",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 1,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands; Turn left from Fast Travel", "Alcala; Wendwood; East by Southeast on the path", "Alcala; Wendwood; Southeast corner of map, near a small lake", "Alcala; Sailor’s Beach; West from the Catavan Stand"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 17,
+  "name": "Jaggia",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands; Turn left from Fast Travel"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 18,
+  "name": "Great Jaggi",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Nest Search"],
+    "hatchable": true,
+    "kinship": "Jaggi StrikeCome on, gather up! Strike together as one with a powerful Jaggi family kick attack! Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands"],
+    "retreat": ["Hit it with a Paintball and defeat it within 3 rounds to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 19,
+  "name": "Ludroth",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands; South from Catavan near river"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 20,
+  "name": "Royal Ludroth",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 2,
+    "attackType": "Power",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Swim"],
+    "hatchable": true,
+    "kinship": "Moonsault SplashJumps forth from the water and into the air, violently flinging the water that it has collected in its mane at its prey. Deals damage to one enemy and reduces enemy attack."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands; South from Catavan near river", "Elder’s Lair – Z4"],
+    "retreat": ["Break the stomach with a slash-type weapon to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 21,
+  "name": "Tetsucabra",
+  "basic": {
+    "genus": "Amphibian",
+    "rarity": 2,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Water",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Alcala; Harzgai Rocky Hill; Follow the path", "Alcala; Wendwood; East by Southeast on the path"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 22,
+  "name": "Arzuros",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 2,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Honey Search", "Rock Breaker"],
+    "hatchable": true,
+    "kinship": "Hunter’s ClawCan’t fight on an empty stomach now…Best catch a delicious salmon! Any who try to snatch it away will feel the sting of these claws! Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands", "Elder’s Lair – Z4"],
+    "retreat": ["Frighten it with a Sonic Bomb to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 23,
+  "name": "Qurupeco",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Monster Search"],
+    "hatchable": true,
+    "kinship": "Barrel Bomb StormLight a bomb with a flash of flint and unleash a storm from above on the enemy!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala, Etulle Lofty Trees"],
+    "retreat": ["Break the head with a blunt-type weapon to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 24,
+  "name": "Blue Yian Kut-Ku",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Monster Search", "Rock Breaker"],
+    "hatchable": true,
+    "kinship": "Fireball ExpulsionChaaarge- Oh, it’s a Konchu!Aaah, that’s one yuuumy Konchu…Wait, don’t think I’ve forgotten about you!Have a smattering of fire with this Konchu shell!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Valley", "Alcala; Wendwood; Southeast corner of map, near a small lake", "Elder’s Lair – Z4"],
+    "retreat": ["Break the head with a pierce-type weapon to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 25,
+  "name": "Tigrex",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Dash", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Rock SmashBellows a savage roar before diving from a cliff. Creates a catastrophic blast-wave upon impact with the earth, sending both foe and the very land itself flying.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala; Harzgai Hill – Inner"],
+    "retreat": ["Break the head with a great sword after it steps on a Shock Trap to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 26,
+  "name": "Monoblos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Roar", "Ground Dive"],
+    "hatchable": true,
+    "kinship": "Demolition DashRakes the ground with its giant horn as it charges at high speed. The sharpened horn pierces through an opponent with ease, much like the blade of a sword master.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala; Harzgai Hill – Inner"],
+    "retreat": ["Defeat using a sword & shield while it is paralyzed to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 27,
+  "name": "Paolumu",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Jet BalloonNap time up in the clouds… A Downy Crake passes by and gently tickles its nose… A-A-Achooo! A sneeze followed by a high-velocity, wild dive, like letting the air out of a balloon.Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Alcala; Wendwood"],
+    "retreat": ["Use a Flash Bomb to stop it from gliding to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Inflated", "Speed"]
+  ]
+}, {
+  "number": 28,
+  "name": "Basarios",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Ore & Bone Search", "Ground Dive"],
+    "hatchable": true,
+    "kinship": "Laser AmbushA single boulder among many moves within a cloud of poison. A face suddenly appears in the boulder, followed by a scorching-hot laser beam!Deals damage to all enemies and inflicts Poison."
+  },
+  "location": {
+    "locations": ["Alcala; Harzgai Rocky Hill"],
+    "retreat": ["Break each part to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 29,
+  "name": "Yian Garuga",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Barrel ChargeSpin faster and faster in the air, homing in on your target before smashing them with intense power!Deals damage to one enemy and inflicts Poison."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Valley", "Elder’s Lair – Z4"],
+    "retreat": ["Break the head when it is enraged to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 30,
+  "name": "Duramboros",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 3,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Alcala; Wendwood; Southeast corner of map, near a small lake"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 31,
+  "name": "Nargacuga",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 4,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Stealth"],
+    "hatchable": true,
+    "kinship": "Dark ThrashA sinister light glowing eerily in the darkness. Launches a slashing attack while unseen by the enemy, leaving no chance for the foe to defend or counterattack.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands"],
+    "retreat": ["Attack it after it falls into a Pitfall Trap to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 32,
+  "name": "Rathian",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 4,
+    "attackType": "Speed",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Dragon",
+    "ridingActions": ["Nest Search"],
+    "hatchable": true,
+    "kinship": "Scorching SliceQueen of the Land, flying high above her realm. The rings of fire that are created by her aerial somersaults and savage fire breath become razor-sharp, slicing and searing all in their path.Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Highlands"],
+    "retreat": ["Attack with a Rathalos Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 33,
+  "name": "Popo",
+  "basic": {
+    "genus": "Herbivore",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Plant Search"],
+    "hatchable": true,
+    "kinship": "Popo DiveChaaarge…is what you wanted to do, but a pesky banana peel slipped you up and turned your attack into a clumsy dive! Deals damage to one enemy and knocks down both the target and the Monstie that used it."
+  },
+  "location": {
+    "locations": ["Loloska; Directly outside Kuan Village"],
+    "retreat": ["Hit it with a paintball and defeat it quickly to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 34,
+  "name": "Konchu (Blue)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina; Follow the North path that branches from the Catavan", "Loloska; Lavina Glacial Peaks; Follow the path to the second bend", "Loloska; Lavina Glacial Peaks; Northwest from Burrow"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 35,
+  "name": "Bnahabra (Green)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape; Go right around the hill"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 36,
+  "name": "Conga",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Forest; In front of Catavan Spawn"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 37,
+  "name": "Congalala",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 2,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Mushroom Search", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Foul BurstStinkshrooms, Toadstools, and Beauty Shrooms! Blending these together in the belly brews the smelliest of farts. Get a whiff!Deals damage to all enemies and inflicts two status ailments of either Poison, Paralysis, or Sleep."
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Village; End of the right path from the Catavan stand."],
+    "retreat": ["Break the head with a hammer to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 38,
+  "name": "Baggi",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 1,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina; Directly South of Catavan Stand", "Loloska; Lavina Glacial Peaks; In the cavern past Geyser 2"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 39,
+  "name": "Great Baggi",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Nest Search"],
+    "hatchable": true,
+    "kinship": "LullabiteCome on, gather up! Strike together as one with a powerful Baggi family hypnotic attack!Deals damage to one enemy and inflicts Sleep."
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina; Directly South of Catavan Stand", "Loloska; Lavina Glacial Peaks; In the cavern past Geyser 2"],
+    "retreat": ["Hit it with a Paintball and defeat it quickly to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 40,
+  "name": "Kecha Wacha",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Bug Search", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Torrent GlideEars over face? Gliding membrane? All set! Time to glide to the enemy and cover ’em in watery mucus!Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Forest"],
+    "retreat": ["Break the head with a sword & shield to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 41,
+  "name": "Gypceros",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Dash"],
+    "hatchable": true,
+    "kinship": "Venom FlashM-My eyes! That flash took me by surprise- Wait, where on earth did it go? A-Above!? It’s above us!Deals damage to all enemies and inflicts Poison."
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Forest"],
+    "retreat": ["Attack with a Nerscylla Kinship Skill to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 42,
+  "name": "Zamite",
+  "basic": {
+    "genus": "Amphibian",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina; Outside West Lavina Everden"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 43,
+  "name": "Zamtrios",
+  "basic": {
+    "genus": "Amphibian",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Swim", "Monster Search"],
+    "hatchable": true,
+    "kinship": "Freezing SpoutsBounce, bounce, bounce! The Zamtrios’s swollen body is all coated in ice. THe monster is great at jumping, but you’d better beware-it’ll freeze everything in the area once it hits the floor!Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina; Outside West Lavina Everden"],
+    "retreat": ["Break the stomach while it is swollen to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Covered in Ice", "Speed"],
+    ["Inflated", "Power"]
+  ]
+}, {
+  "number": 44,
+  "name": "Nerscylla",
+  "basic": {
+    "genus": "Temnoceran",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Monster Search", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Predator NeedleMoves deftly from web to web, like a deadly pendulum waiting to drop on its unsuspecting prey and stab them with its sharp stinger.Deals damage to one enemy and inflicts sleep."
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Forest"],
+    "retreat": ["Break the needles with a fire element attack to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 45,
+  "name": "Barroth",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 3,
+    "attackType": "Speed",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Bug Search", "Ground Dive"],
+    "hatchable": true,
+    "kinship": "Rushing ChargeGather up some mud for a headlong charge! It might get a little messy around here, but it’ll be worth it for this awesome mud ball!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Rocky Canyon"],
+    "retreat": ["Wash off its mud cover by using a water element attack to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Covered in Mud", "Technical"]
+  ]
+}, {
+  "number": 46,
+  "name": "Tobi-Kadachi",
+  "basic": {
+    "genus": "Fanged Wyvern",
+    "rarity": 3,
+    "attackType": "Speed",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "Kadachi FuryA presence lurks in the murky woodlands. It glides down from the treetops with lightning speed upon its prey like a blistering wind, smashing them with its electrically charged tail. Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Rocky Canyon"],
+    "retreat": ["Break the tail with a hunting horn to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"],
+    ["Overcharge", "Power"]
+  ]
+}, {
+  "number": 47,
+  "name": "Khezu",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Roar"],
+    "hatchable": true,
+    "kinship": "Spark SurpriseKinship Skill activate…! Huh? Why is everything upside down!? The Khezu sways menacingly from side to side before diving at breakneck-speed, discharging all the electricity stored up in its body upon impact with the ground.Deals damage to all enemies and inflicts Paralysis."
+  },
+  "location": {
+    "locations": ["Loloska; Lavina Glacial Peaks; Follow the path to the second bend", "Loloska; Lavina Glacial Peaks; Northwest from Burrow"],
+    "retreat": ["Attack with a Shrouded Nerscylla KInship Skill to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 48,
+  "name": "Red Khezu",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 4,
+    "attackType": "Technical",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Roar"],
+    "hatchable": true,
+    "kinship": "Spark SurpriseKinship Skill activate…! Huh? Why is everything upside down!? The Khezu sways menacingly from side to side before diving at breakneck-speed, discharging all the electricity stored up in its body upon impact with the ground.Deals damage to all enemies and inflicts Paralysis."
+  },
+  "location": {
+    "locations": ["Loloska; Lavina Glacial Peaks; Northwest from Burrow"],
+    "retreat": ["Break the head with a bow to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Charged", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 49,
+  "name": "Seltas",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Loloska; Lavina Glacial Peaks; At the pit where you did the boss fight"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 50,
+  "name": "Seltas Queen",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 4,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Loloska; Lavina Glacial Peaks; At the pit where you did the boss fight"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Combined", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 51,
+  "name": "Lagombi",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 2,
+    "attackType": "Speed",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Dash", "Rock Breaker"],
+    "hatchable": true,
+    "kinship": "Slide SpinnerSlip down the snowy slope and fly into the air with a whoosh! A brilliant spin attack that’ll earn you a perfect score, and put even pro skiers to shame.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina"],
+    "retreat": ["Break the stomach with a great sword to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 52,
+  "name": "Jade Barroth",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 3,
+    "attackType": "Power",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Bug Search", "Ground Dive"],
+    "hatchable": true,
+    "kinship": "Rushing ChargeGather up some snow for a headlong charge! It might get a little chilly around here, but it’ll be worth it for this awesome snowball!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Loloska; Lavina Glacial Peaks"],
+    "retreat": ["Shake off its snow cover by using a thunder element attack to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Covered in Snow", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 53,
+  "name": "Anjanath",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 4,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Roar"],
+    "hatchable": true,
+    "kinship": "Anja Assault"
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Forest"],
+    "retreat": ["Break the nose with a water element attack to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 54,
+  "name": "Gammoth",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Roar", "Mega Breaker"],
+    "hatchable": true,
+    "kinship": "Raging AvalancheThe Gammoth sets foot at the mountain’s base, letting out a howl that bellows across the snowy terrain. Crushing the ground beneath it, silence falls over the white landscape…before a cascade of snow envelops everything in an instant.Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Loloska; Woodland"],
+    "retreat": ["Defeat with a Glavenus Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Snow Slurp", "Power"]
+  ]
+}, {
+  "number": 55,
+  "name": "Zinogre",
+  "basic": {
+    "genus": "Fanged Wyvern",
+    "rarity": 5,
+    "attackType": "Speed",
+    "attackElement": "Electric",
+    "defenseElement": "Electric",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "Voltage CrashThe Zinogre becomes supercharged with electricity and leaps up into the air. The blows from its paws sunder the earth like lightning bolts…and a howl echoes from afar in the night’s gloom.Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Loloska; LAvina Glacial Peaks"],
+    "retreat": ["Defeat with an ice element attack while it is afflicted with Blastblight to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["When Charged", "Technical"],
+    ["When Supercharged", "Power"]
+  ]
+}, {
+  "number": 56,
+  "name": "Barioth",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 4,
+    "attackType": "Speed",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Fly", "Rock Breaker"],
+    "hatchable": true,
+    "kinship": "Ground CycloneA peculiar light glows in the midst of a blizzard, and a blast of frigid air freezes the very earth. The rapid changes in temperature cause a violent vortex that rips through the polar landscape.Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Rocky Canyon"],
+    "retreat": ["Break the spikes with a fire element attack to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 57,
+  "name": "Legiana",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 4,
+    "attackType": "Speed",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Icicle RealmSpirals elegantly against a bright white backdrop of light and snow. Freezes the air to fashion a crystallized pillar that ensnares its prey, leaving them helpless as they are struck with spears of bitingly sharp ice.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Loloska; Lavina Glacial Peaks"],
+    "retreat": ["Stop it from gliding using a Flash Bomb, then attack it with a Thunder Element attack to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"],
+    ["Flying", "Technical"]
+  ]
+}, {
+  "number": 58,
+  "name": "Slagtoth (Brown)",
+  "basic": {
+    "genus": "Herbivore",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens", "Lamure; Pomore Garden; South by Southwest of Catavan Stand"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 59,
+  "name": "Bnahabra (Brown)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 60,
+  "name": "Konchu (Red)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 61,
+  "name": "Cephalos",
+  "basic": {
+    "genus": "Piscine Wyvern",
+    "rarity": 1,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamura; Sadona Barrens"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Power"]
+  ]
+}, {
+  "number": 62,
+  "name": "Hermitaur",
+  "basic": {
+    "genus": "Carapaceon",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 63,
+  "name": "Uroktor",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 64,
+  "name": "Ioprey",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 1,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Water",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 65,
+  "name": "Iodrome",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "Poison SlashJump high into the air and come down upon the enemy with a vicious attack. Time for a face full of poison!Deals damage to one enemy and inflicts Poison."
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["Hit it with a Paintball and defeat it quickly to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 66,
+  "name": "Genprey",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 1,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamure; Lamure Tower – 3F"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 67,
+  "name": "Gendrome",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 2,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "ParalyslashJump high into the air and come down upon the enemy with a vicious attack. Give ’em a few new battle scars with those razor-sharp fangs!Deals damage to one enemy and inflicts Paralysis."
+  },
+  "location": {
+    "locations": ["Lamure; Lamure Tower – 3F"],
+    "retreat": ["Hit it with a Paintball and defeat it quickly to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 68,
+  "name": "Plesioth",
+  "basic": {
+    "genus": "Piscine Wyvern",
+    "rarity": 4,
+    "attackType": "Technical",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 69,
+  "name": "Cephadrome",
+  "basic": {
+    "genus": "Piscine Wyvern",
+    "rarity": 2,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Monster Search", "Ground DIve"],
+    "hatchable": true,
+    "kinship": "Sand SpraySurf’s up on the sandy desert waves! Explode out of the sandy sea from a dive and envelop everything in sight in scorching sand.Deals damage to all enemies and inflicts Blind."
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens"],
+    "retreat": ["Make it emerge from underground using a Sonic Bomb to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 70,
+  "name": "Ash Kecha Wacha",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 4,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Bug Search", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Torrent GlideEars over face? Gliding membrane? All set! Time to glide to the enemy and cover ’em in fiery mucus! Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Lamure; Lamure Tower Front"],
+    "retreat": ["Break the head with a water element great sword to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 71,
+  "name": "Purple Gypceros",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 3,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Dash"],
+    "hatchable": true,
+    "kinship": "Venom FlashM-My eyes! That flash took me by surprise- Wait, where on earth did it go…? A-Above!? It’s above us!Deals damage to all enemies and inflicts Poison."
+  },
+  "location": {
+    "locations": ["Lamure; Lamure Tower Front"],
+    "retreat": ["Break the head with a gunlance to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 72,
+  "name": "Green Nargacuga",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Stealth"],
+    "hatchable": true,
+    "kinship": "Dark ThrashA sinister light glowing eerily in the darkness. Launches a slashing attack while unseen by the enemy, leaving no chance for the foe to defend or counterattack.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden; Literally everywhere, just look around"],
+    "retreat": ["Attack it after it falls into a Pitfall Trap to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 73,
+  "name": "Diablos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Roar", "Ground DIve"],
+    "hatchable": true,
+    "kinship": "Fiendish CycloneDigs its two giant horns into the ground and violently plows towards its poor foes. The earth that’s churned up under its feet gets swept up and turned into a vicious sandstorm.Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Lamure; Lamure Tower Front"],
+    "retreat": ["Make it emerge from underground using a Sonic Bomb, then destroy its horns while it is downed to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 74,
+  "name": "Black Diablos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Roar", "Ground DIve"],
+    "hatchable": true,
+    "kinship": "Fiendish CycloneDigs its two giant horns into the ground and violently plows towards its poor foes. The earth that’s churned up under its feet gets swept up and turned into a vicious sandstorm.Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Lamure; Lamure Tower – 5F"],
+    "retreat": ["Make it emerge from underground using a Sonic Bomb, then destroy its horns while it is downed to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 75,
+  "name": "White Monoblos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Roar", "Ground Dive"],
+    "hatchable": true,
+    "kinship": "Demolition DashRakes the ground with its giant horn as it charges at high speed. The sharpened horn pierces through an opponent with ease, much like the blade of a sword master.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Lamure; Jalma Highlands"],
+    "retreat": ["Defeat using a bow while it is paralyzed to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 76,
+  "name": "Crimson Qurupeco",
+  "basic": {
+    "genus": "Bird Wyvern",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Electric",
+    "defenseElement": "Electric",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Monster Search"],
+    "hatchable": true,
+    "kinship": "Barrel Bomb StormLight a Barrel Bomb with an electric spark of flint and unleash a storm from above on the enemy!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden; Northwest of Catavan Stand"],
+    "retreat": ["Break the head with a hammer to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed "]
+  ]
+}, {
+  "number": 77,
+  "name": "Mizutsune",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 5,
+    "attackType": "Technical",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Dash"],
+    "hatchable": true,
+    "kinship": "Moonlight TransienceBubbles that glisten in the pale moonlight. Do not become entranced, for they will trap you where you stand before bursting violently from above. Those caught will suffer a similar fate to the bubbles.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden; Jump off the cliff to the South"],
+    "retreat": ["Defeat with an Astalos Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 78,
+  "name": "Lagiacrus",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Electric",
+    "defenseElement": "Electric",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Swim", "Roar"],
+    "hatchable": true,
+    "kinship": "Thunderous BlastThe King of the Sea sways gently on the waves… Without warning, its prey has been brought right out into the middle of the ocean, where they’re at the mercy of its surging electricity that’s waiting to be discharged!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden"],
+    "retreat": ["Defeat with a Rathalos Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"],
+    ["Electrify", "Technical"]
+  ]
+}, {
+  "number": 79,
+  "name": "Uragaan",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 4,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Lava Dive", "Ore & Bone Search"],
+    "hatchable": true,
+    "kinship": "Rolling ShotMajestically roll over cliffs! Aim your roly-poly Uragaan at the target and shoot away! It’ll crush the enemy with its great jaws!Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["Defeat while it is poisoned to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 80,
+  "name": "Daimyo Hermitaur",
+  "basic": {
+    "genus": "Carapaceon",
+    "rarity": 3,
+    "attackType": "Attack Type:",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 81,
+  "name": "Plum Daimyo Hermitaur",
+  "basic": {
+    "genus": "Carapaceon",
+    "rarity": 4,
+    "attackType": "Attack Type:",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Ice",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Lamure; Monster Research Lab"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 82,
+  "name": "Brute Tigrex",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Attack Element:",
+    "defenseElement": "Resistance:",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Dash", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Rock SmashBellows a savage roar before diving from a cliff. Creates a catastrophic blast-wave upon impact with the earth, sending both foe and the very land itself flying.Deals damage to one enemy."
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens"],
+    "retreat": ["Break the head with a sword & shield after it steps on a Shock Trap to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 83,
+  "name": "Purple Ludroth",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 3,
+    "attackType": "Power",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Swim"],
+    "hatchable": true,
+    "kinship": "Moonsault Splash"
+  },
+  "location": {
+    "locations": ["Lamure; Sadona Barrens"],
+    "retreat": ["Break the head with a fire element gunlance to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 84,
+  "name": "Ruby Basarios",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 4,
+    "attackType": "Technical",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Ore & Bone Search", "Ground Dive"],
+    "hatchable": true,
+    "kinship": "Laser Ambush"
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden"],
+    "retreat": ["Break each part to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 85,
+  "name": "Gravios",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Lava Dive", "Roar"],
+    "hatchable": true,
+    "kinship": "Magma SurgeEmerges majestically from the magma, an avatar of the mighty volcano. Unleashes a beam of intense heat, scorching everything in its line of sight. Deals damage to all enemies."
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base", "Terga; Terga Volcano Trail; Southwest of Burrow"],
+    "retreat": ["Break each part with a Big Barrel Bomb to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 86,
+  "name": "Altaroth",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base; Near the Emerald Congalala and Brachydios"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 87,
+  "name": "Great Thunderbug",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Speed",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Water",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base", "Spawned in by Zinogre"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 88,
+  "name": "Konchu (Green)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base; Near Plesioth"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 89,
+  "name": "Shakalaka",
+  "basic": {
+    "genus": "Lynian",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 90,
+  "name": "Desert Seltas Queen",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 5,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base; On the path towards Crystal Depths", "Terga; Crystal Depths; Follow the path"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 91,
+  "name": "Green Plesioth",
+  "basic": {
+    "genus": "Piscine Wyvern",
+    "rarity": 5,
+    "attackType": "Technical",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 92,
+  "name": "Shrouded Nerscylla",
+  "basic": {
+    "genus": "Temnoceran",
+    "rarity": 4,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Monster Search", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Predator Needle"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["Break the needles with an ice element bow to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 93,
+  "name": "Emerald Congalala",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 3,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Mushroom Search", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Foul Burst"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["Break the head with a fire element hunting horn to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 94,
+  "name": "Agnaktor",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 4,
+    "attackType": "Speed",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Terga; Lake of Flames"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Before Molten Uppercut", "Speed"],
+    ["After Molten Uppercut", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 95,
+  "name": "Black Gravios",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Lava Dive", "Roar"],
+    "hatchable": true,
+    "kinship": "Magma Surge"
+  },
+  "location": {
+    "locations": ["Terga; Crystal Depths"],
+    "retreat": ["Break each part with a Big Barrel Bomb to boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 96,
+  "name": "Ivory Lagiacrus",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Dragon",
+    "ridingActions": ["Swim", "Roar"],
+    "hatchable": true,
+    "kinship": "Thunderous Blast"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base", "High Rank – S. Elder’s Lair – Z1"],
+    "retreat": ["Defeat with a Rathalos Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"],
+    ["Electrify", "Technical"]
+  ]
+}, {
+  "number": 97,
+  "name": "Brachydios",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Roar", "Mega Breaker"],
+    "hatchable": true,
+    "kinship": "Brachy Blow"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["Break its fist with a water element hammer to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 98,
+  "name": "Nergigante",
+  "basic": {
+    "genus": "Elder Dragon",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Roar", "Mega Breaker"],
+    "hatchable": true,
+    "kinship": "Decimating Fist"
+  },
+  "location": {
+    "locations": ["Terga; Crystal Depths;Where you fight it as a boss"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["White Spiked", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 99,
+  "name": "Astalos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Technical",
+    "attackElement": "Attack Element:",
+    "defenseElement": "Resistance:",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Astalos Pulse"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base; Must accept a repeatable quest"],
+    "retreat": ["Defeat with a Gammoth Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Electrify", "Power"],
+    ["Flying Enraged", "Speed"]
+  ]
+}, {
+  "number": 100,
+  "name": "Glavenus",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Mega Breaker", "Monster Search"],
+    "hatchable": true,
+    "kinship": "X Blaze"
+  },
+  "location": {
+    "locations": ["Alcala; Northwest of Catavan Stand, across the lake with the little island", "7★ Subquest"],
+    "retreat": ["Defeat with a Mizutsune Kinship Skill"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Blaze", "Speed"],
+    ["After Fire Chakram", "Technical"]
+  ]
+}, {
+  "number": 101,
+  "name": "Glacial Agnaktor",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 5,
+    "attackType": "Technical",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Rocky Canyon, East of Catavan, must have subquest"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Ice Armor", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 102,
+  "name": "Bazelgeuse",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 6,
+    "attackType": "Speed",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Nova Strike"
+  },
+  "location": {
+    "locations": ["Hakolo Island; South Kamuna Cape; Near South Kamuna Forest Entrance (Subquest)"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 103,
+  "name": "Remobra",
+  "basic": {
+    "genus": "Snake Wyvern",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Dragon",
+    "ridingActions": false,
+    "hatchable": true,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; Guardian Ratha Woods"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 104,
+  "name": "Great Dracophage Bug",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 2,
+    "attackType": "Speed",
+    "attackElement": "Dragon",
+    "defenseElement": "Dragon",
+    "defenseWeakness": "Thunder",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; Guardian Ratha Woods; After spawning at Forbidden Grounds go as far south as you can, then as far west as you can, then it should be on your way south."],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"]
+  ]
+}, {
+  "number": 105,
+  "name": "Bnahabra (Red)",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; Guardian Ratha Woods"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 106,
+  "name": "Vespoid",
+  "basic": {
+    "genus": "Neopteron",
+    "rarity": 1,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Fire",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Hakolo Island; Forbidden Grounds", "Hakolo Island; Guardian Ratha’s Den; Around the Brute Tigrex near the Catavan Stand"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"]
+  ]
+}, {
+  "number": 107,
+  "name": "Sand Barioth",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Fly", "Rock Breaker"],
+    "hatchable": true,
+    "kinship": "Ground Cyclone"
+  },
+  "location": {
+    "locations": ["Hakolo Island; Guardian Ratha Woods; After spawning at Forbidden Grounds go as far south as you can, then as far west as you can, then it should be on your way north."],
+    "retreat": ["Break the spikes with an ice element hunting horn to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 108,
+  "name": "Deviljho",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Dragon",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Dragon",
+    "ridingActions": ["Monster Search", "Mega Breaker"],
+    "hatchable": true,
+    "kinship": "Hunger Rage"
+  },
+  "location": {
+    "locations": ["Hakolo Island; Kamuna Cape; Subquest Only"],
+    "retreat": ["Defeat with a dragon element attack while it is poisoned to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 109,
+  "name": "Stygian Zinogre",
+  "basic": {
+    "genus": "Fanged Wyvern",
+    "rarity": 6,
+    "attackType": "Technical",
+    "attackElement": "Dragon",
+    "defenseElement": "Dragon",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "Voltage Crash"
+  },
+  "location": {
+    "locations": ["Hakolo Island; Guardian Ratha Woods; After spawning at Forbidden Grounds go as far south as you can, then as far west as you can, then it should be on your way south."],
+    "retreat": ["Defeat with a thunder element attack while it is afflicted with Blastblight to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 110,
+  "name": "Seregios",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 6,
+    "attackType": "Technical",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Piercing Stars"
+  },
+  "location": {
+    "locations": ["Hakolo Island; Guardian Ratha Woods; Directly South"],
+    "retreat": ["Break the head with a thunder element gunlance to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 111,
+  "name": "Barrel Felyne",
+  "basic": {
+    "genus": "Lynian",
+    "rarity": 1,
+    "attackType": "None",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Big Barrel Bomb",
+    "ridingActions": false,
+    "hatchable": false,
+    "kinship": false
+  },
+  "location": {
+    "locations": ["Everywhere, easiest farming spots are Hakolo Island; North Kamuna Cape and Lamure; Pomore Gardens (Subquest)"],
+    "retreat": false
+  },
+  "attackPattrn": [
+    ["Initial", "None"]
+  ]
+}, {
+  "number": 112,
+  "name": "Rathalos",
+  "basic": {
+    "genus": "Flying Wyverns",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Sky-High Dive"
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": ["Defeat with a Lagiacrus Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Flying", "Speed"]
+  ]
+}, {
+  "number": 113,
+  "name": "Azure Rathalos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 6,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Dragon",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Sky-High Dive"
+  },
+  "location": {
+    "locations": ["Hakolo Island; North Kamuna Cape"],
+    "retreat": ["Defeat with a Lagiacrus Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Flying", "Speed"]
+  ]
+}, {
+  "number": 114,
+  "name": "Pink Rathian",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 5,
+    "attackType": "Speed",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Dragon",
+    "ridingActions": ["Nest Search"],
+    "hatchable": true,
+    "kinship": "Scorching Slice"
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden"],
+    "retreat": ["Attack with an Azure Rathalos Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 115,
+  "name": "Fulgur Anjanath",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 5,
+    "attackType": "Power",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Roar"],
+    "hatchable": true,
+    "kinship": "Anja Assault"
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina"],
+    "retreat": ["Break the nose with an ice element attack to greatly boost the retreat rate."]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 116,
+  "name": "Silverwind Nargacuga",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Stealth"],
+    "hatchable": true,
+    "kinship": "Sky-High Dive"
+  },
+  "location": {
+    "locations": ["Hakolo Island; Super rare den"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 117,
+  "name": "Thunderlord Zinogre",
+  "basic": {
+    "genus": "Fanged Wyvern",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "Gigavolt Crash"
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Rocky Canyon"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["When Charged", "Speed"]
+  ]
+}, {
+  "number": 118,
+  "name": "Bloodbath Diablos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Speed",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Roar", "Ground Dive"],
+    "hatchable": true,
+    "kinship": "Longhorn Upheaval"
+  },
+  "location": {
+    "locations": ["Lamure; Jalma Highlands"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 119,
+  "name": "Grimclaw Tigrex",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Dash", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Tigrexplosion"
+  },
+  "location": {
+    "locations": ["Alcala; Alcala Valley"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 120,
+  "name": "Dreadqueen Rathian",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Speed",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Dragon",
+    "ridingActions": ["Nest Search"],
+    "hatchable": true,
+    "kinship": "Dual Razor"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Enraged", "Speed"]
+  ]
+}, {
+  "number": 121,
+  "name": "Kirin",
+  "basic": {
+    "genus": "Elder Dragon",
+    "rarity": 7,
+    "attackType": "Speed",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "Phantasmal Horn"
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Technical"]
+  ]
+}, {
+  "number": 122,
+  "name": "Teostra",
+  "basic": {
+    "genus": "Elder Dragon",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Roar", "Lava Dive"],
+    "hatchable": true,
+    "kinship": "Teostrophe Zero"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"],
+    ["Flying", "Technical"]
+  ]
+}, {
+  "number": 123,
+  "name": "Rajang",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Nest Search", "Mega Breaker"],
+    "hatchable": true
+  },
+  "location": {
+    "locations": ["Woodland den; Super rare den;"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Power Aura", "Power"],
+    ["Speed Aura", "Speed"],
+    ["Technical Aura", "Technical"]
+  ]
+}, {
+  "number": 124,
+  "name": "Kushala Daora",
+  "basic": {
+    "genus": "Elder Dragon",
+    "rarity": 7,
+    "attackType": "Technical",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Ancient Storm"
+  },
+  "location": {
+    "locations": ["Alcala; Etulle Lofty Trees"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Technical"],
+    ["Flying", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 125,
+  "name": "Velkhana",
+  "basic": {
+    "genus": "Elder Dragon",
+    "rarity": 7,
+    "attackType": "Technical",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Calamity Glacier"
+  },
+  "location": {
+    "locations": ["Loloska; Base of Mt. Lavina"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Ice Mantle", "Technical"],
+    ["Flying", "Power"]
+  ]
+}, {
+  "number": 126,
+  "name": "Boltreaver Astalos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Technical",
+    "attackElement": "Thunder",
+    "defenseElement": "Thunder",
+    "defenseWeakness": "Ice",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Astalos Saber"
+  },
+  "location": {
+    "locations": ["Alcala; Harzgai Hill - Inner"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["First Initial", "Technical"],
+    ["Flying", "Speed"],
+    ["Second Initial", "Power"],
+    ["Flying", "Speed"],
+    ["After Flying", "Technical"]
+  ]
+}, {
+  "number": 127,
+  "name": "Hellblade Glavenus",
+  "basic": {
+    "genus": "Brute Wyvern",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Monster Search", "Mega Breaker"],
+    "hatchable": true,
+    "kinship": "XX Blaze"
+  },
+  "location": {
+    "locations": ["Terga; Terga Volcano Base"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["After Mega Fireball Charge", "Speed"]
+  ]
+}, {
+  "number": 129,
+  "name": "Elderfrost Gammoth",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Roar", "Mega Breaker"],
+    "hatchable": true,
+    "kinship": "Glacial Crater"
+  },
+  "location": {
+    "locations": ["Loloska; Lavina Glacial Peaks"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Snow Slurp", "Power"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 130,
+  "name": "Soulseer Mizutsune",
+  "basic": {
+    "genus": "Leviathan",
+    "rarity": 7,
+    "attackType": "Speed",
+    "attackElement": "Water",
+    "defenseElement": "Water",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Dash"],
+    "hatchable": true,
+    "kinship": "Sublime Transience"
+  },
+  "location": {
+    "locations": ["Lamure; Pomore Garden"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 131,
+  "name": "Oroshi Kirin",
+  "basic": {
+    "genus": "Elder Dragon",
+    "rarity": 7,
+    "attackType": "Speed",
+    "attackElement": "Ice",
+    "defenseElement": "Ice",
+    "defenseWeakness": "Fire",
+    "ridingActions": ["Jump"],
+    "hatchable": true,
+    "kinship": "Phantasmal Horn"
+  },
+  "location": {
+    "locations": ["Loloska; Loloska Forest"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"],
+    ["After Ice Aura", "Technical"]
+  ]
+}, {
+  "number": 132,
+  "name": "Molten Tigrex",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Non-Elem",
+    "defenseElement": "Non-Elem",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Dash", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Rock Smash"
+  },
+  "location": {
+    "locations": ["Lamure; Jalma Highlands"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Enraged", "Speed"],
+    ["After Deafening Roar", "Technical"],
+    ["After Being Downed", "Power"]
+  ]
+}, {
+  "number": 133,
+  "name": "Dreadking Rathalos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Dragon",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Sky-High Dive"
+  },
+  "location": {
+    "locations": ["Searching rare egg dens around Hakolo Island", "Slay co-op quest, Dreadking Rathalos"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Not Flying", "Power"],
+    ["After Soaring Inferno", "Speed"],
+    ["After King's Judgment", "Technical"]
+  ]
+}, {
+  "number": 134,
+  "name": "Gold Rathian",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Speed",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Thunder",
+    "ridingActions": ["Nest Search"],
+    "hatchable": true,
+    "kinship": "Scorching Slice"
+  },
+  "location": {
+    "locations": ["Alcala; Wendwood"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Speed"],
+    ["Enraged", "Power"]
+  ]
+}, {
+  "number": 135,
+  "name": "Silver Rathalos",
+  "basic": {
+    "genus": "Flying Wyvern",
+    "rarity": 7,
+    "attackType": "Power",
+    "attackElement": "Fire",
+    "defenseElement": "Fire",
+    "defenseWeakness": "Water",
+    "ridingActions": ["Fly"],
+    "hatchable": true,
+    "kinship": "Sky-High Dive"
+  },
+  "location": {
+    "locations": ["Alcala; Etulle Lofty Trees"],
+    "retreat": ["CANNOT BE RETREATED"]
+  },
+  "attackPattrn": [
+    ["Initial", "Power"],
+    ["Flying", "Speed"],
+    ["Ground Enraged", "Power"],
+    ["After King's Judgment", "Technical"],
+    ["Flying Enraged", "Technical"]
+  ]
+}, {
+  "number": 136,
+  "name": "Palamute",
+  "basic": {
+    "genus": "Fanged Beast",
+    "rarity": 5,
+    "attackType": "Speed",
+    "attackElement": "?",
+    "defenseElement": "?",
+    "defenseWeakness": "?",
+    "ridingActions": ["Jump", "Ivy Climb"],
+    "hatchable": true,
+    "kinship": "Scorching Slice"
+  },
+  "location": {
+    "locations": ["Co-Op"],
+    "retreat": ["Attack with an Azure Rathalos Kinship Skill to greatly boost the retreat rate."]
+  },
+  "attackPattrn": false,
+  "Notes": ["Attack element, defense, element and element weakness depend on the color of the Palamute."]
+}]

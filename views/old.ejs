@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <style>
+    p,
+    div,
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .textRight {
+      text-align: right;
+    }
+
+    ul {
+      margin: 10px 0 20px;
+    }
+
+    li {
+      list-style-type: square;
+      list-style-position: inside;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .card {
+      margin-bottom: 30px;
+      background-color: #f5f5f5;
+      padding: 10px;
+    }
+
+    .headerBlock img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .numberName {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      padding: 10px;
+      font-size: 20px;
+      background-color: #ccc;
+    }
+
+    .subTitle+p {
+      margin-top: 10px;
+    }
+
+    .blockContent {
+      padding: 20px;
+    }
+
+    .table {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      width: 100%;
+      margin-bottom: 20px;
+      border: 1px solid;
+    }
+
+    .table>div {
+      display: flex;
+    }
+
+    .table p {
+      padding: 5px;
+      border: 1px solid;
+    }
+
+    .subTitle {
+      border-bottom: 2px solid;
+    }
+
+    .partsBlock ul,
+    .attackBlock ul {
+      padding: 0 30px;
+      margin: 0;
+    }
+
+    .partsBlock li,
+    .attackBlock li {
+      list-style-type: none;
+      padding: 13px 10px;
+      background-color: #ccc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .attackBlock li:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .partsBlock ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .partsBlock li {
+      width: calc(50% - 40px);
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      box-sizing: border-box;
+    }
+
+    .icon.part {
+      background-color: rgb(99, 99, 99);
+      padding: 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <%for (let i=0; i < items.length; i++) {%>
+    <div class="card">
+      <div class="headerBlock">
+        <div class="imageWrapper">
+          <img src="./images/small/<%=items[i].name%>-small.png" alt="<%=items[i].name%> image" />
+        </div>
+        <div class="basicInfo">
+          <p class="val">#<%=items[i].number%></p>
+          <p class="val"><%=items[i].name%></p>
+          <p class="textRight">hatchable: <%=items[i].basic.hatchable%></p>
+        </div>
+        <div class="typeInfo">
+          <p>Type: <%=items[i].basic.attackType%></p>
+          <p>Attack: <%=items[i].basic.attackElement%></p>
+          <p>Defense: <%=items[i].basic.defenseElement%></p>
+          <p>Weakness: <%=items[i].basic.defenseWeakness%></p>
+        </div>
+      </div>
+
+      <div class="basicBlock">
+        <p class="title">Basic</p>
+        <div class="blockContent">
+          <div class="table">
+            
+            
+            <p class="textRight"><%=items[i].basic.rarity%>*</p>
+            
+            
+            <p class="textRight">hatchable: <%=items[i].basic.hatchable%></p>
+          </div>
+
+          <%if (items[i].basic.ridingActions) {%>
+          <p class="subTitle">Rider Actions</p>
+          <ul>
+            <%for (const action of items[i].basic.ridingActions) {%>
+            <li><%=action%></li>
+            <%}%>
+            </ul>
+            <%}%>
+        </div>
+      </div>
+
+      <div class="habitatBlock">
+        <p class="title">Habitat</p>
+        <div class="blockContent">
+          <p class="subTitle">Habitat</p>
+          <ul>
+            <%for (const loc of items[i].location.locations) {%>
+            <li><%=loc%></li>
+            <%}%>
+            </ul>
+
+            <%if(items[i].location.retreat) {%>
+
+            <p class="subTitle">Retreat</p>
+            <p><%=items[i].location.retreat%></p>
+            <%}%>
+          </div>
+        </div>
+
+        <%if(items[i].attackPattrn) {%>
+            <div class="attackBlock">
+              <p class="title">Attack pattern</p>
+              <div class="blockContent">
+                <ul>
+                  <%for (const attack of items[i].attackPattrn) {%>
+                  <li>
+                    <span><%=attack[0]%></span>
+                    <img class="icon" src="./images/attackTypes/<%=attack[1]%>.png" alt="">
+                  </li>
+                  <%}%>
+          </ul>
+          </div>
+        </div>
+        <%}%>
+
+                  <%if(items[i].parts) {%>
+                  <div class="partsBlock">
+                    <p class="title">Parts</p>
+                    <div class="blockContent">
+                      <ul>
+                        <%for (const object of items[i].parts) {%>
+                        <li>
+                          <img class="icon part" src="./images/part/part<%=object.id%>.png" alt="">
+                          <img class="icon" src="./images/weaponTypes/<%=object.tactic%>.png" alt="">
+                        </li>
+                        <%}%>
+          </ul>
+          </div>
+        </div>
+        <%}%>
+
+                        <%if(items[i].monstieStats) {%>
+                        <div class="block">
+                          <p class="title">Wild Stats</p>
+                          <div class="blockContent"></div>
+                        </div>
+                        <%}%>
+      </div>
+      <%}%>
+                    </div>
+</body>
+
+</html>

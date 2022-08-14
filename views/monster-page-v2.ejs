@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monster List</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/splide.min.css">
+  <link rel="stylesheet" href="../css/monster-page.css" />
+</head>
+
+<body>
+  <aside>
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="/monster-list"><img src="../images/icons/monster.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="../images/icons/genes.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="../images/icons/teams.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="../images/icons/eggs.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <div class="container monsterPage">
+      <header class="container">
+        <div class="buttonWrapper">
+          <div class="buttonWrapper_inner">
+            <a class="prevBtn button" title="Back" href="/monster-list">
+              <span>Back</span>
+            </a>
+          </div>
+
+          <div class="buttonWrapper_inner">
+            <button title="Favoriet">
+              <img src="../images/icons/star.svg" alt="" />
+            </button>
+            <button title="Add to party">
+              <img src="../images/icons/plus.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="main_inner hide splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+        <%for (let i=0; i < monsters.length; i++) {%>
+        <li class="monsterWrapper splide__slide" data-splide-hash="<%=monsters[i].number%>">
+          <div class="monsterWrapper_inner <%=monsters[i].basic.attackElement%>" id="N<%=monsters[i].number%>">
+
+            <div class="elementWrapper imageWrapper headerEl" data-wrapper="headerEl">
+              <img class="monsterImage" src="../images/large/<%=monsters[i].name%>.png" alt="monster image" />
+              <div class="imageWrapper_inner">
+                <span class="number">#<%=monsters[i].number%></span>
+                <span class="name"><%=monsters[i].name%></span>
+              </div>
+            </div>
+
+            <div class="elementWrapper basicInfo" data-wrapper="basicInfo">
+              <div class="header">
+                <span>Basic info</span>
+              </div>
+
+              <div class="table element">
+                <div>
+                  <p>
+                    Type: <% if (monsters[i].basic.attackType){ %>
+                    <img class="icon" src="../images/attackTypes/<%=monsters[i].basic.attackType%>.svg" alt="" />
+                    <% } %>
+                  </p>
+                  <p>
+                    Attack: <% if (monsters[i].basic.attackElement){ %>
+                    <img class="icon" src="../images/elements/small/<%=monsters[i].basic.attackElement%>.svg" alt="" />
+                    <% } %>
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Defense: <% if (monsters[i].basic.defenseElement){ %>
+                    <img class="icon" src="../images/elements/small/<%=monsters[i].basic.defenseElement%>.svg" alt="" />
+                    <% } %>
+                  </p>
+                  <p>
+                    Weakness: <% if (monsters[i].basic.defenseWeakness){ %>
+                    <img class="icon" src="../images/elements/small/<%=monsters[i].basic.defenseWeakness%>.svg"
+                      alt="" />
+                    <% } %>
+                  </p>
+                </div>
+
+                <div>
+                  <p class="rarity">
+                    <%=monsters[i].basic.rarity%>
+                    <img class="icon" src="../images/icons/star-brown.svg" alt="" />
+                  </p>
+                  <p>
+                    <% if (monsters[i].basic.hatchable){ %> hatchable <% }
+                    else { %>
+                    <span>-</span>
+                    <% } %>
+                  </p>
+                </div>
+              </div>
+
+              <% if (monsters[i].basic.ridingActions){ %>
+              <div class="riderActions element">
+                <span class="elementHeader"> Rider Action </span>
+                <ul>
+                  <%for (let index=0; index < monsters[i].basic.ridingActions.length;
+                  index++) {%>
+                  <li>- <%=monsters[i].basic.ridingActions[index]%></li>
+                  <% } %>
+                </ul>
+              </div>
+              <% } %>
+            </div>
+
+            <div class="elementWrapper habitat" data-wrapper="habitat">
+              <div class="header">
+                <span>Habitat / Retreat</span>
+              </div>
+
+              <div class="riderActions element">
+                <span class="elementHeader"> Habitat </span>
+                <ul>
+                  <%for (let index=0; index < monsters[index].location.locations.length;
+                  index++) {%>
+                  <li>- <%=monsters[i].location.locations[index]%></li>
+                  <% } %>
+                </ul>
+              </div>
+
+              <% if (monsters[i].location.retreat){ %>
+              <div class="riderActions element">
+                <span class="elementHeader"> Retreat </span>
+                <p><%=monsters[i].location.retreat%></p>
+              </div>
+              <% } %>
+            </div>
+
+            <% if (monsters[i].attackPattrn){ %>
+            <div class="elementWrapper attackPttrn" data-wrapper="attackPttrn">
+              <div class="header">
+                <span>Attack pattern</span>
+              </div>
+
+              <%for (let index=0; index < monsters[i].attackPattrn.length; index++) {%>
+              <div class="attackPattrn_element element">
+                <%=monsters[i].attackPattrn[index][0]%>
+                <img class="icon" src="../images/attackTypes/<%=monsters[i].attackPattrn[index][1]%>.svg" alt="" />
+              </div>
+              <% } %>
+            </div>
+            <% } %> 
+
+            <% if (monsters[i].parts){ %>
+            <div class="parts elementWrapper" data-wrapper="parts">
+              <div class="header">
+                <span>Parts</span>
+              </div>
+
+              <div class="parts_inner">
+                <%for (let index=0; index < monsters[i].parts.length; index++) {%>
+                <div class="attackPattrn_element partElement">
+                  <img class="icon part" src="../images/part/part<%=monsters[i].parts[index].id%>.png" alt="" />
+                  <img class="icon" src="../images/weaponTypes/<%=monsters[i].parts[index].tactic%>.png" alt="" />
+                </div>
+                <% } %>
+              </div>
+            </div>
+            <% } %>
+
+            <div class="elementWrapper wildStats" data-wrapper="wildStats">
+              <div class="header">
+                <span>Wild stats</span>
+              </div>
+
+              <p class="smallBold">Low Rank</p>
+
+              <div class="table stats smallStats element">
+                <div>
+                  <p>HP</p>
+                  <p>speed</p>
+                </div>
+
+                <div>
+                  <p><%=monsters[i].wildStats.low.lp%></p>
+                  <p><%=monsters[i].wildStats.low.speed%></p>
+                </div>
+              </div>
+
+              <div class="table stats element">
+                <div>
+                  <p>Attack</p>
+                  <p>Defense</p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Non-Elem.svg" alt="Non-element" />
+                  <p><%=monsters[i].wildStats.low.attack[0]%></p>
+                  <p><%=monsters[i].wildStats.low.defense[0]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Fire.svg" alt="Fire" />
+                  <p><%=monsters[i].wildStats.low.attack[1]%></p>
+                  <p><%=monsters[i].wildStats.low.defense[1]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Water.svg" alt="Water" />
+                  <p><%=monsters[i].wildStats.low.attack[2]%></p>
+                  <p><%=monsters[i].wildStats.low.defense[2]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Thunder.svg" alt="Thunder" />
+                  <p><%=monsters[i].wildStats.low.attack[3]%></p>
+                  <p><%=monsters[i].wildStats.low.defense[3]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Ice.svg" alt="Ice" />
+                  <p><%=monsters[i].wildStats.low.attack[4]%></p>
+
+                  <p><%=monsters[i].wildStats.low.defense[4]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Dragon.svg" alt="Dragon" />
+                  <p><%=monsters[i].wildStats.low.attack[5]%></p>
+
+                  <p><%=monsters[i].wildStats.low.defense[5]%></p>
+                </div>
+              </div>
+
+              <p class="smallBold">High Rank</p>
+
+              <div class="table stats smallStats element">
+                <div>
+                  <p>HP</p>
+                  <p>speed</p>
+                </div>
+
+                <div>
+                  <p><%=monsters[i].wildStats.high.lp%></p>
+                  <p><%=monsters[i].wildStats.high.speed%></p>
+                </div>
+              </div>
+
+              <div class="table stats element">
+                <div>
+                  <p>Attack</p>
+                  <p>Defense</p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Non-Elem.svg" alt="Non-element" />
+                  <p><%=monsters[i].wildStats.high.attack[0]%></p>
+                  <p><%=monsters[i].wildStats.high.defense[0]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Fire.svg" alt="Fire" />
+                  <p><%=monsters[i].wildStats.high.attack[1]%></p>
+                  <p><%=monsters[i].wildStats.high.defense[1]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Water.svg" alt="Water" />
+                  <p><%=monsters[i].wildStats.high.attack[2]%></p>
+                  <p><%=monsters[i].wildStats.high.defense[2]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Thunder.svg" alt="Thunder" />
+                  <p><%=monsters[i].wildStats.high.attack[3]%></p>
+                  <p><%=monsters[i].wildStats.high.defense[3]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Ice.svg" alt="Ice" />
+                  <p><%=monsters[i].wildStats.high.attack[4]%></p>
+
+                  <p><%=monsters[i].wildStats.high.defense[4]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Dragon.svg" alt="Dragon" />
+                  <p><%=monsters[i].wildStats.high.attack[5]%></p>
+
+                  <p><%=monsters[i].wildStats.high.defense[5]%></p>
+                </div>
+              </div>
+            </div>
+
+            <% if (monsters[i].monstieStats){ %>
+            <div class="elementWrapper monstieStats" data-wrapper="monstieStats">
+              <div class="header">
+                <span>Monstie stats</span>
+              </div>
+
+              <div class="table stats smallStats smallStats_first element">
+                <div>
+                  <p>Speed</p>
+                  <p>Crit.</p>
+                </div>
+
+                <div>
+                  <p><%=monsters[i].monstieStats.speed%></p>
+                  <p><%=monsters[i].monstieStats.crit%></p>
+                </div>
+              </div>
+
+              <p class="smallBold">Level 1</p>
+
+              <div class="table stats smallStats element">
+                <div>
+                  <p>HP</p>
+                  <p>Recov.</p>
+                </div>
+
+                <div>
+                  <p><%=monsters[i].monstieStats.level1.lp%></p>
+                  <p><%=monsters[i].monstieStats.level1.Recovery%></p>
+                </div>
+              </div>
+
+              <div class="table stats element">
+                <div>
+                  <p>Attack</p>
+                  <p>Defense</p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Non-Elem.svg" alt="Non-element" />
+                  <p><%=monsters[i].monstieStats.level1.attack[0]%></p>
+                  <p><%=monsters[i].monstieStats.level1.defense[0]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Fire.svg" alt="Fire" />
+                  <p><%=monsters[i].monstieStats.level1.attack[1]%></p>
+                  <p><%=monsters[i].monstieStats.level1.defense[1]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Water.svg" alt="Water" />
+                  <p><%=monsters[i].monstieStats.level1.attack[2]%></p>
+                  <p><%=monsters[i].monstieStats.level1.defense[2]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Thunder.svg" alt="Thunder" />
+                  <p><%=monsters[i].monstieStats.level1.attack[3]%></p>
+                  <p><%=monsters[i].monstieStats.level1.defense[3]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Ice.svg" alt="Ice" />
+                  <p><%=monsters[i].monstieStats.level1.attack[4]%></p>
+
+                  <p><%=monsters[i].monstieStats.level1.defense[4]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Dragon.svg" alt="Dragon" />
+                  <p><%=monsters[i].monstieStats.level1.attack[5]%></p>
+
+                  <p><%=monsters[i].monstieStats.level1.defense[5]%></p>
+                </div>
+              </div>
+
+              <p class="smallBold">Level 20</p>
+
+              <div class="table stats smallStats element">
+                <div>
+                  <p>HP</p>
+                  <p>Recov.</p>
+                </div>
+
+                <div>
+                  <p><%=monsters[i].monstieStats.level20.lp%></p>
+                  <p><%=monsters[i].monstieStats.level20.Recovery%></p>
+                </div>
+              </div>
+
+              <div class="table stats element">
+                <div>
+                  <p>Attack</p>
+                  <p>Defense</p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Non-Elem.svg" alt="Non-element" />
+                  <p><%=monsters[i].monstieStats.level20.attack[0]%></p>
+                  <p><%=monsters[i].monstieStats.level20.defense[0]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Fire.svg" alt="Fire" />
+                  <p><%=monsters[i].monstieStats.level20.attack[1]%></p>
+                  <p><%=monsters[i].monstieStats.level20.defense[1]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Water.svg" alt="Water" />
+                  <p><%=monsters[i].monstieStats.level20.attack[2]%></p>
+                  <p><%=monsters[i].monstieStats.level20.defense[2]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Thunder.svg" alt="Thunder" />
+                  <p><%=monsters[i].monstieStats.level20.attack[3]%></p>
+                  <p><%=monsters[i].monstieStats.level20.defense[3]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Ice.svg" alt="Ice" />
+                  <p><%=monsters[i].monstieStats.level20.attack[4]%></p>
+
+                  <p><%=monsters[i].monstieStats.level20.defense[4]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Dragon.svg" alt="Dragon" />
+                  <p><%=monsters[i].monstieStats.level20.attack[5]%></p>
+
+                  <p><%=monsters[i].monstieStats.level20.defense[5]%></p>
+                </div>
+              </div>
+
+              <p class="smallBold">Level 50</p>
+
+              <div class="table stats smallStats element">
+                <div>
+                  <p>HP</p>
+                  <p>Recov.</p>
+                </div>
+
+                <div>
+                  <p><%=monsters[i].monstieStats.level50.lp%></p>
+                  <p><%=monsters[i].monstieStats.level50.Recovery%></p>
+                </div>
+              </div>
+
+              <div class="table stats element">
+                <div>
+                  <p>Attack</p>
+                  <p>Defense</p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Non-Elem.svg" alt="Non-element" />
+                  <p><%=monsters[i].monstieStats.level50.attack[0]%></p>
+                  <p><%=monsters[i].monstieStats.level50.defense[0]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Fire.svg" alt="Fire" />
+                  <p><%=monsters[i].monstieStats.level50.attack[1]%></p>
+                  <p><%=monsters[i].monstieStats.level50.defense[1]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Water.svg" alt="Water" />
+                  <p><%=monsters[i].monstieStats.level50.attack[2]%></p>
+                  <p><%=monsters[i].monstieStats.level50.defense[2]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Thunder.svg" alt="Thunder" />
+                  <p><%=monsters[i].monstieStats.level50.attack[3]%></p>
+                  <p><%=monsters[i].monstieStats.level50.defense[3]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Ice.svg" alt="Ice" />
+                  <p><%=monsters[i].monstieStats.level50.attack[4]%></p>
+
+                  <p><%=monsters[i].monstieStats.level50.defense[4]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Dragon.svg" alt="Dragon" />
+                  <p><%=monsters[i].monstieStats.level50.attack[5]%></p>
+
+                  <p><%=monsters[i].monstieStats.level50.defense[5]%></p>
+                </div>
+              </div>
+
+              <p class="smallBold">Level 99</p>
+
+              <div class="table stats smallStats element">
+                <div>
+                  <p>HP</p>
+                  <p>Recov.</p>
+                </div>
+
+                <div>
+                  <p><%=monsters[i].monstieStats.level99.lp%></p>
+                  <p><%=monsters[i].monstieStats.level99.Recovery%></p>
+                </div>
+              </div>
+
+              <div class="table stats element">
+                <div>
+                  <p>Attack</p>
+                  <p>Defense</p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Non-Elem.svg" alt="Non-element" />
+                  <p><%=monsters[i].monstieStats.level99.attack[0]%></p>
+                  <p><%=monsters[i].monstieStats.level99.defense[0]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Fire.svg" alt="Fire" />
+                  <p><%=monsters[i].monstieStats.level99.attack[1]%></p>
+                  <p><%=monsters[i].monstieStats.level99.defense[1]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Water.svg" alt="Water" />
+                  <p><%=monsters[i].monstieStats.level99.attack[2]%></p>
+                  <p><%=monsters[i].monstieStats.level99.defense[2]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Thunder.svg" alt="Thunder" />
+                  <p><%=monsters[i].monstieStats.level99.attack[3]%></p>
+                  <p><%=monsters[i].monstieStats.level99.defense[3]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Ice.svg" alt="Ice" />
+                  <p><%=monsters[i].monstieStats.level99.attack[4]%></p>
+
+                  <p><%=monsters[i].monstieStats.level99.defense[4]%></p>
+                </div>
+
+                <div>
+                  <img src="../images/elements/small/Dragon.svg" alt="Dragon" />
+                  <p><%=monsters[i].monstieStats.level99.attack[5]%></p>
+
+                  <p><%=monsters[i].monstieStats.level99.defense[5]%></p>
+                </div>
+              </div>
+            </div>
+            <%}%> 
+            
+            <% if (monsters[i].monstieStats){ %>
+            <div class="elementWrapper eggWrapper" data-wrapper="eggWrapper">
+              <div class="header">
+                <span>Egg</span>
+              </div>
+
+              <img src="../images/eggs/<%=monsters[i].name%>-egg.png" alt="" />
+            </div>
+            <%}%>
+          </div>
+          </li>
+          <%}%>
+          </ul>
+          </div>
+          </div>
+        </div>
+  </main>
+</body>
+
+<script>
+  window.redirectTo = '<%=monsterID%>';
+</script>
+
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-url-hash@0.2.3/dist/js/splide-extension-url-hash.min.js"></script>
+<script src="../js/generate-monster-page.js"></script>
+<script src="../js/monster-page.js"></script>
+
+</html>

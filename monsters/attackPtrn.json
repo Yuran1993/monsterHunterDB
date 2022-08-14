@@ -1,0 +1,854 @@
+[{
+    "name": "Bazelgeuse",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Bulldrome",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed "]
+    ]
+  }, {
+    "name": "Deviljho",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed "]
+    ]
+  }, {
+    "name": "Kulu-Ya-Ku",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Holding a Rock", "Power "]
+    ]
+  }, {
+    "name": "Pukei-Pukei",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Crunch Time", "Power "]
+    ]
+  }, {
+    "name": "Sand Barioth",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical "]
+    ]
+  }, {
+    "name": "Seregios",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed "]
+    ]
+  }, {
+    "name": "Stygian Zinogre",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed "]
+    ]
+  }, {
+    "name": "Velocidrome",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Yian Kut-Ku",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Azure Rathalos",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Flying", "Speed"]
+    ]
+  }, {
+    "name": "Dreadking Rathalos",
+    "attackPattrn": [
+      ["Not Flying", "Power"],
+      ["After Soaring Inferno", "Speed"],
+      ["After King's Judgment", "Technical"]
+    ]
+  }, {
+    "name": "Silverwind Nargacuga",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Arzuros",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Basarios",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Blue Yian Kut-Ku",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Duramboros",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Glavenus",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Blaze", "Speed"],
+      ["After Fire Chakram", "Technical"]
+    ]
+  }, {
+    "name": "Great Jaggi",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Monoblos",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Nargacuga",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Paolumu",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Inflated", "Speed"]
+    ]
+  }, {
+    "name": "Qurupeco",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Rathian",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Royal Ludroth",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Tetsucabra",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  }, {
+    "name": "Tigrex",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Yian Garuga",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Boltreaver Astalos",
+    "attackPattrn": [
+      ["First Initial", "Technical"],
+      ["Flying", "Speed"],
+      ["Second Initial", "Power"],
+      ["Flying", "Speed"],
+      ["After Flying", "Technical"]
+    ]
+  }, {
+    "name": "Gold Rathian",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Grimclaw Tigrex",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Kushala Daora",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Flying", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Silver Rathalos",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Flying", "Speed"],
+      ["Ground Enraged", "Power"],
+      ["After King's Judgment", "Technical"],
+      ["Flying Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Anjanath",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Barioth",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Barroth",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Covered in Mud", "Technical"]
+    ]
+  }, {
+    "name": "Congalala",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Fulgur Anjanath",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Gammoth",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Snow Slurp", "Power"]
+    ]
+  }, {
+    "name": "Glacial Agnaktor",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Ice Armor", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Great Baggi",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Gypceros",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Jade Barroth",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Covered in Snow", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Kecha Wacha",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Khezu",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Lagombi",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Legiana",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"],
+      ["Flying", "Technical"]
+    ]
+  }, {
+    "name": "Nerscylla",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Red Khezu",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Charged", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Seltas Queen",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Combined", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Tobi-Kadachi",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"],
+      ["Overcharge", "Power"]
+    ]
+  }, {
+    "name": "Zamtrios",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Covered in Ice", "Speed"],
+      ["Inflated", "Power"]
+    ]
+  }, {
+    "name": "Zinogre",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["When Charged", "Technical"],
+      ["When Supercharged", "Power"]
+    ]
+  }, {
+    "name": "Elderfrost Gammoth",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Snow Slurp", "Power"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Oroshi Kirin",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"],
+      ["After Ice Aura", "Technical"]
+    ]
+  }, {
+    "name": "Thunderlord Zinogre",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["When Charged", "Speed"]
+    ]
+  }, {
+    "name": "Velkhana",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Ice Mantle", "Technical"],
+      ["Flying", "Power"]
+    ]
+  }, {
+    "name": "Ash Kecha Wacha",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Black Diablos",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Brute Tigrex",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Cephadrome",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Crimson Qurupeco",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed "]
+    ]
+  }, {
+    "name": "Diablos",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Daimyo Hermitaur",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Gendrome",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Green Nargacuga",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Lagiacrus",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"],
+      ["Electrify", "Technical"]
+    ]
+  }, {
+    "name": "Mizutsune",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Plesioth",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Plum Daimyo Hermitaur",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Purple Gypceros",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Purple Ludroth",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Ruby Basarios",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "White Monoblos",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Bloodbath Diablos",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Kirin",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Molten Tigrex",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"],
+      ["After Deafening Roar", "Technical"],
+      ["After Being Downed", "Power"]
+    ]
+  }, {
+    "name": "Pink Rathian",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Soulseer Mizutsune",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Agnaktor",
+    "attackPattrn": [
+      ["Before Molten Uppercut", "Speed"],
+      ["After Molten Uppercut", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Astalos",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Electrify", "Power"],
+      ["Flying Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Black Gravios",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Brachydios",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Desert Seltas Queen",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Emerald Congalala",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Gravios",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Green Plesioth",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Iodrome",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"]
+    ]
+  }, {
+    "name": "Ivory Lagiacrus",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"],
+      ["Electrify", "Technical"]
+    ]
+  }, {
+    "name": "Nergigante",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["White Spiked", "Power"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Shrouded Nerscylla",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Uragaan",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Enraged", "Technical"]
+    ]
+  }, {
+    "name": "Dreadqueen Rathian",
+    "attackPattrn": [
+      ["Initial", "Technical"],
+      ["Enraged", "Speed"]
+    ]
+  }, {
+    "name": "Hellblade Glavenus",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["After Mega Fireball Charge", "Speed"]
+    ]
+  }, {
+    "name": "Teostra",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["Enraged", "Power"],
+      ["Flying", "Technical"]
+    ]
+  }, {
+    "name": "Fatalis",
+    "attackPattrn": [
+      ["Initial", "Speed"],
+      ["After Hellish Flame", "Power"],
+      ["After Skyforce", "Speed"],
+      ["Enraged", "Technical"],
+      ["After Enraged Ends", "They'll use Hellish Flame or Skyforce"]
+    ]
+  }, {
+    "name": "Kulve Taroth",
+    "attackPattrn": [
+      ["Gold Initial", "Technical"],
+      ["Gold Enraged", "Power"],
+      ["Goldless Initial", "Speed"],
+      ["Goldless Enraged", "Power"]
+    ]
+  },
+  {
+    "name": "Rajang",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Power Aura", "Power"],
+      ["Speed Aura", "Speed"],
+      ["Technical Aura", "Technical"]
+    ]
+  },
+  {
+    "name": "Rathalos",
+    "attackPattrn": [
+      ["Initial", "Power"],
+      ["Flying", "Speed"]
+    ]
+  },
+  {
+    "name": "Gargwa",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Aptonoth",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Slagtoth (Green)",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Slagtoth (Brown)",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Jaggi",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Jaggia",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Velociprey",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Genprey",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Ioprey",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Remobra",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Conga",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Altaroth",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Bnahabra (Blue)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Bnahabra (Brown)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Bnahabra (Green)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Bnahabra (Red)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Zamite",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Konchu (Yellow)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Konchu (Green)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Konchu (Blue)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Konchu (Red)",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Cephalos",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Hermitaur",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Apceros",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Vespoid",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Baggi",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Shakalaka",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Great Thunderbug",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Great Dracophage Bug",
+    "attackPattrn": [
+      ["Initial", "Speed"]
+    ]
+  },
+  {
+    "name": "Uroktor",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Ludroth",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Bullfango",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Barrel Felyne",
+    "attackPattrn": [
+      ["Initial", "None"]
+    ]
+  },
+  {
+    "name": "Larinoth",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  },
+  {
+    "name": "Seltas",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Seltas",
+    "attackPattrn": [
+      ["Initial", "Technical"]
+    ]
+  },
+  {
+    "name": "Popo",
+    "attackPattrn": [
+      ["Initial", "Power"]
+    ]
+  }
+]

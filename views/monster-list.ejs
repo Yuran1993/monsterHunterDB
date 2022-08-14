@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Monster List</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/monster-list-page.css" />
+  </head>
+
+  <body>
+    <aside>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="/monster-list"><img src="../images/icons/monster.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/icons/genes.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/icons/teams.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/icons/eggs.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <header>
+        <h1>Monster List</h1>
+        <div class="buttonWrapper">
+          <div class="searchWrapper">
+            <input id="searchField" type="text" />
+            <button class="closeSearch" title="Close search">
+              <img src="../images/icons/x.svg" alt="" />
+            </button>
+            <button class="Search" title="Search">
+              <img src="../images/icons/lope.svg" alt="" />
+            </button>
+          </div>
+          <button title="Favoriets">
+            <img class="blue-star" src="../images/icons/star.svg" alt="" />
+            <img class="white-star" src="../images/icons/star-white.svg" alt="" />
+          </button>
+          <button class="filters_open" title="Filters">
+            <img class="filters_open-icon" src="../images/icons/filter.svg" alt="" />
+            <img class="filters_active-icon" src="../images/icons/filter-active.svg" alt="" />
+          </button>
+        </div>
+      </header>
+
+      <div class="container monsterList">
+        <%for (let i=0; i < items.length; i++) {%>
+        <a href="/monster-page?ID=<%=items[i].number%>"class="card <%=items[i].basic.attackElement%>">
+          <div class="imageWrapper">
+            <img
+              src="./images/small/<%=items[i].name%>-small.png"
+              alt="<%=items[i].name%> image"
+            />
+          </div>
+          <div class="basicInfo">
+            <p class="number">
+              #<%=items[i].number%> <% if(items[i].basic.hatchable){ %>
+              <img class="hatchable" src="../images/icons/egg.svg" alt="" />
+              <% } %>
+            </p>
+            <p class="name"><%=items[i].name%></p>
+          </div>
+          <div class="typeInfo">
+            <div>
+              <p>
+                Type: <% if (items[i].basic.attackType && items[i].basic.attackType !== '?'){ %>
+                <img
+                  class="icon attackType"
+                  src="../images/attackTypes/<%=items[i].basic.attackType%>.svg"
+                  alt="<%=items[i].basic.attackType%>"
+                />
+                <% } else if (items[i].basic.attackType === '?') { %> ? <% }
+                else { %> None <% } %>
+              </p>
+              <p>
+                Attack: <% if (items[i].basic.attackElement && items[i].basic.attackElement !== '?'){ %>
+                <img
+                  class="icon attackElement"
+                  src="../images/elements/small/<%=items[i].basic.attackElement%>.svg"
+                  alt="<%=items[i].basic.attackElement%>"
+                />
+                <% } else if (items[i].basic.attackElement === '?') { %> ? <% }
+                else { %> None <% } %>
+              </p>
+            </div>
+
+            <div>
+              <p>
+                Defense: <% if (items[i].basic.defenseElement && items[i].basic.defenseElement !== '?'){ %>
+                <img
+                  class="icon defenseElement"
+                  src="../images/elements/small/<%=items[i].basic.defenseElement%>.svg"
+                  alt="<%=items[i].basic.defenseElement%>"
+                />
+                <% } else if (items[i].basic.attackElement === '?') { %> ? <% }
+                else { %> None <% } %>
+              </p>
+              <p>
+                Weakness: <% if (items[i].basic.defenseWeakness && items[i].basic.defenseWeakness !== '?'){ %>
+                <img
+                  class="icon weakness"
+                  src="../images/elements/small/<%=items[i].basic.defenseWeakness%>.svg"
+                  alt="<%=items[i].basic.defenseWeakness%>"
+                />
+                <% } else if (items[i].basic.defenseWeakness === '?') { %> ? <% }
+                else { %> All <% } %>
+              </p>
+            </div>
+          </div>
+        </a>
+        <%}%>
+      </div>
+
+     <div class="filters_overlay"> 
+      <div class="filters">
+        <h2>Filter options</h2>
+
+        <button class="filters_close">&times</button>
+
+        <div class="filter_hatchable">
+          <div>
+            <input type="radio" name="test" value="All" id="All" checked>
+            <label class="filter_btn_large" for="All">All</label>
+          </div>
+         
+          <div>
+            <input type="radio" name="test" value="Hatchable" id="Hatchable">
+            <label class="filter_btn_large" for="Hatchable">Hatchable</label>
+          </div>
+        </div>
+
+        <div class="filter_section filter_attackType">
+          <p class="filter_section_title">Attack type</p>
+          <ul>
+            <li>
+              <input type="checkbox" id="Power" name="Power">
+              <label for="Power"><img src="/images/attackTypes/Power.svg" alt="Power attack type"/></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="Speed" name="Speed">
+              <label for="Speed"><img src="/images/attackTypes/Speed.svg" alt="Speed attack type"/></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="Technical" name="Technical">
+              <label for="Technical"><img src="/images/attackTypes/Technical.svg" alt="Technical attack type"/></label>
+            </li>  
+          </ul>
+        </div>
+
+        <div class="filter_section filter_attackElement">
+          <p class="filter_section_title">Attack Element</p>
+          <ul>
+            <li>
+              <input type="checkbox" id="aNon-Elem" name="Non-Elem" data-filter-element="Non-Elem">
+              <label for="aNon-Elem"><img src="/images/elements/small/Non-Elem.svg" alt="Non-element" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="Fire" name="Fire" data-filter-element="Fire">
+              <label for="Fire"><img src="/images/elements/small/Fire.svg" alt="Fire" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="aWater" name="Water" data-filter-element="Water">
+              <label for="aWater"><img src="../images/elements/small/Water.svg" alt="Water" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="aThunder" name="Thunder" data-filter-element="Thunder">
+              <label for="aThunder"><img src="../images/elements/small/Thunder.svg" alt="Thunder" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="aIce" name="Ice" data-filter-element="Ice">
+              <label for="aIce"><img src="../images/elements/small/Ice.svg" alt="Ice" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="aDragon" name="Dragon" data-filter-element="Dragon">
+              <label for="aDragon"><img src="../images/elements/small/Dragon.svg" alt="Dragon" /></label>
+            </li>  
+          </ul>
+        </div>
+
+        <div class="filter_section filter_defenseElement">
+          <p class="filter_section_title">Defense Element</p>
+          <ul>
+            <li>
+              <input type="checkbox" id="dNon-Elem" name="Non-Elem" data-filter-element="Non-Elem">
+              <label for="dNon-Elem"><img src="/images/elements/small/Non-Elem.svg" alt="Non-element" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="dFire" name="Fire" data-filter-element="Fire">
+              <label for="dFire"><img src="/images/elements/small/Fire.svg" alt="Fire" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="dWater" name="Water" data-filter-element="Water">
+              <label for="dWater"><img src="../images/elements/small/Water.svg" alt="Water" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="dThunder" name="Thunder" data-filter-element="Thunder">
+              <label for="dThunder"><img src="../images/elements/small/Thunder.svg" alt="Thunder" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="dIce" name="Ice" data-filter-element="Ice">
+              <label for="dIce"><img src="../images/elements/small/Ice.svg" alt="Ice" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="dDragon" name="Dragon" data-filter-element="Dragon">
+              <label for="dDragon"><img src="../images/elements/small/Dragon.svg" alt="Dragon" /></label>
+            </li>  
+          </ul>
+        </div>
+
+        <div class="filter_section filter_weakness">
+          <p class="filter_section_title">Weakness</p>
+          <ul>
+            <li>
+              <input type="checkbox" id="wNon-Elem" name="Non-Elem" data-filter-element="Non-Elem">
+              <label for="wNon-Elem"><img src="/images/elements/small/Non-Elem.svg" alt="Non-element" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="wFire" name="Fire" data-filter-element="Fire">
+              <label for="wFire"><img src="/images/elements/small/Fire.svg" alt="Fire" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="wWater" name="Water" data-filter-element="Water">
+              <label for="wWater"><img src="../images/elements/small/Water.svg" alt="Water" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="wThunder" name="Thunder" data-filter-element="Thunder">
+              <label for="wThunder"><img src="../images/elements/small/Thunder.svg" alt="Thunder" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="wIce" name="Ice" data-filter-element="Ice">
+              <label for="wIce"><img src="../images/elements/small/Ice.svg" alt="Ice" /></label>
+            </li>  
+            <li>
+              <input type="checkbox" id="wDragon" name="Dragon" data-filter-element="Dragon">
+              <label for="wDragon"><img src="../images/elements/small/Dragon.svg" alt="Dragon" /></label>
+            </li>  
+          </ul>
+        </div>
+
+        <div class="filters_btns">
+          <button class="filters_reset">Reset</button>
+          <button class="filters_save">Save</button>
+        </div>
+
+
+      </div> 
+     </div> 
+
+    </main>
+  </body>
+
+  <script src="../js/monster-list-page.js"></script>
+  
+  
+</html>
